@@ -1,3 +1,4 @@
+
 .navbar.navbar-expand-lg.bg-warning {
     background: rgb(2,0,36);
 background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 56%, rgba(0,212,255,1) 100%);
@@ -55,13 +56,15 @@ label.col-sm-2.col-form-label {
 
 h1.nombre {
     margin-left: 25%;
-    margin-top: -5%;
+    margin-top: -10%;
+    padding-bottom: 1rem;
     color: white;
     font-weight: bold;
 }
 
 .titulo {
     margin-left: 30%;
+    margin-top: 5%;
 }
 
 div.modal-body {
@@ -89,3 +92,122 @@ div.modal-header {
     margin-top: 4%;
 }
 
+.estudios {
+    background: black;
+   
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1rem;
+    border-radius: 5%;
+}
+
+.educacion { 
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.li-educ {
+    padding-top: 2rem;
+    padding-left: 20%;
+}
+
+.exp-lista {
+    padding-top: 2rem;
+    padding-left: 20%;
+}
+
+.habilidades {
+    display: grid;
+    gap: 0.5em;
+}
+
+.titulo-hab {
+    background: black;
+    color: white;
+    height: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3rem;
+    border-radius: 5%;
+}
+
+.skill {
+    margin-top: 1rem;
+    margin-left: 20%;
+}
+
+.progress {
+    margin-top: 1rem;
+    display: flex;
+    width: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.proyectos {
+    background: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3rem;
+    border-radius: 5%;
+}
+
+.proyectos-des {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 4%;
+}
+
+.body{
+    background-color: black;
+}
+
+.pie-pagina {
+    background: rgb(1, 17, 68);
+    width: 100%;
+}
+
+.descripcion-pie {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .estudios {
+        background: white;
+    }
+    .educacion {
+        color: black;
+    }
+    .titulo-hab {
+        color: black;
+        background: white;
+    }
+    .progress {
+        width: 180px;
+    }
+    .proyectos {
+        color: black;
+        background: white;
+    }
+}
