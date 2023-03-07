@@ -1,159 +1,211 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Martin Olea | FullStack Dev JR</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-warning">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="css/arg-im.png" alt="" width="35%" height="">
-            </a>
-            <ul class="navbar-nav">
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Martín Olea | Full Stack Dev JR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">        
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Martín Ignacio Olea Cruz</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/">Instagram</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/">LinkedIn</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/Olea45">GitHub</a>
+                <a class="nav-link active" aria-current="page" href="#"></a>
               </li>
             </ul>
-            <!-- Boton Modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Login
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="mb-3 row">
-                      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                      <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail" value="">
-                      </div>
-                    </div>
-                    <div class="mb-3 row">
-                      <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                      <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Iniciar Sesion</button>
-                  </div>
-                </div>
-              </div>
-            </div>          
+            <span class="navbar-text">
+                <a href="https://www.linkedin.com/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://twitter.com/">
+                    <i class="bi bi-twitter"></i>
+                </a>
+            </span>
           </div>
-        </nav>
-        <div class="banner">
-          <img src="css/banner-mcolor.jpg" class="img-fluid" alt="" >
         </div>
-        <header>
-            <h1 class="nombre">Martin I. Olea Cruz</h1>
-        </header>
-        <section>
-            <h2 class="titulo">Full Stack Developer Jr</h2>
-        </section>
-        <section class="descripcion">
-          <p class="sobre-descripcion">Hola! Actualmente soy estudiante en la Universidad de Salta, cursando la tecnicatura en Programacion y muy entusiasmado por conseguir mi primera experiencia laboral en el mundo IT.</p>
-        </section>
-        <section class="estudios">
-          <h3 class="educacion">Educacion</h3>
-        </section>
-        <section class="estudios-lista">
-          <ul class="lista-educ">
-            <li class="li-educ">
-              <a>Universidad Nacional de Salta | 2022 - Actualidad</a>
-              <p class="item-desc">Tecnicatura Universitaria en Porgramacion</p>
-            </li>
-            <li class="li-educ">
-              <a>Universidad Provincial de Administracion, Tecnologia y Oficios | 2022 - Actualidad</a>
-              <p class="item-desc">Desarrollo de software</p>
-            </li>
-            <li class="li-educ">
-              <a>Oracle Next Education | 2022 - 2022</a>
-              <p class="item-desc">Curso de programacion dirigido por Alura Latam</p>
-            </li>
-          </ul>
-        </section>
-        <section class="estudios">
-          <h3 class="educacion">Experiencia</h3>
-        </section>
-        <section class="experiencia">
-          <ul class="exp-lista">
-            <li class="exp-item">
-              <a>Todavia no poseo experiencia profesional</a>
-            </li>
-          </ul>
-        </section>
-        <section class="habilidades">
-          <article>
-            <h2 class="titulo-hab">Skills</h2>
-            <h4 class="skill">Python</h4>
-              <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-success" style="width: 30%">30%</div>
-              </div>
-              <h4 class="skill">CSS</h4>
-              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-info" style="width: 75%">75%</div>
-              </div>
-              <h4 class="skill">JavaScript</h4>
-              <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-warning" style="width: 75%">75%</div>
-              </div>
-              <h4 class="skill">HTML</h4>
-              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-danger" style="width: 100%">100%</div>
-              </div>
-          </article>
-        </section>
-        <section>
-          <h2 class="proyectos">Proyectos</h2>
-          <p class="proyectos-des">Todos mis proyectos estan disponibles en mi perfil de GitHub, visitalo y disfruta de mis primeros pasos en el mundo de la programacion.</p>
-          <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card">
-                <div class="card-body text-bg-dark">
-                  <h5 class="card-title">Chalenge Portfolio</h5>
-                  <p class="card-text">El primer proyecto que realize sin ayuda parte del programa de challenges de Alura Latam.</p>
-                  <a href="#" class="btn btn-primary">Repo</a>
-                </div>
-              </div>
+    </nav>   
+
+    <!-- encabezado -->
+    <div class="m-2 border border-dark rounded-3">
+        <img src="css/banner-galaxy.jpg" alt="fondo" width="100%">
+        <div class="p-3">
+            <div class="mb-3">
+                <img src="images/perfil.png" alt="perfil" width="100" height="100" class="imagen-perfil">
+                <div class="fs-4">Martin Ignacio Olea Cruz</div>
+                <div>Estudiante</div>
+                <div>Salta, Argentina</div>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body text-bg-dark">
-                  <h5 class="card-title">Challenge Encriptador</h5>
-                  <p class="card-text">Proyecto realizado para el programa de Challenges de Alura Latam.</p>
-                  <a href="#" class="btn btn-primary">Repo</a>
+            <div>
+                <button class="btn btn-primary">Tengo interes</button>
+                <button class="btn btn-info">Añadir sección</button>
+                <button class="btn btn-info">Más</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- acerda de -->
+    <div class="m-2 p-3 border border-dark rounded-3">
+        <div class="row">
+            <div class="col-11">
+                <div class="fs-4 mb-2">Acerca de</div>
+                <div class="mb-2" id="acercaDe">Estudiante de la Univerisad Nacional de Salta</div>
+                <input type="text" id="inputAcercaDe" class="form-control" style="display: none;" onkeyup="updAcercaDe()">
+            </div>
+            <div class="col-1 text-center">
+                <i class="bi bi-pencil-fill" style="cursor:pointer" onclick="showInput()"></i>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <!-- experiencias y educaciones -->
+    <div class="m-2 p-3 border border-dark rounded-3">
+        <div class="fs-4 my-2">Experiencia</div>
+
+        <!-- experiencias backend-->
+        <div id="expBackEnd" class="row m-b3">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="images/pixarLogo.png" alt="pixar" width="40" height="40">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-5" id="exp">Dev</div>
+                        <div class="text-secondary fs-6">Argentina Programa</div>
+                        <div class="text-secondary fw-bold">2022 - 2023 Aprendiendo</div>
+                        <div class="text-secondary fw-bold">Argentina</div>
+                        <input type="text" id="inputExp" class="form-control" style="display: none;" onkeyup="updExp()">
+                    </div>
                 </div>
-              </div>
+
+            </div>
+            <div class="col-1 text-center">
+                <i class="bi bi-plus-lg" style="cursor:pointer"></i>
+                <br>
+                <i class="bi bi-pencil-fill" style="cursor:pointer" onclick="showInput1()"></i>
+
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="expBackEnd">
+                    <i class="bi bi-trash-fill"></i>
+                </a>
+                 
+                
+            </div>
+        </div>
+
+        <!-- educación unsa  -->
+        <div class="fs-4 my-2">Educación</div>
+
+        <div class="row mb-3">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="images/UTN.png" alt="pixar" width="60">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-5">UNSa</div>
+                        <div class="text-secondary fs-6">Tecnicatura Universitaria en Programacion</div>
+                        <div class="text-secondary fw-bold">2022 - Actualidad</div>
+                        <input type="text" id="inputUNSa" class="form-control" style="display: none;" onkeyup="updUNSa()">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1 text-center">
+                <i class="bi bi-plus-lg"></i>
+                <br>
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </div>
+        </div> 
+        <div class="row mb-3">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="images/UTN.png" alt="pixar" width="60">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-5">Alura Latam</div>
+                        <div class="text-secondary fs-6">Curso de programacion ONE</div>
+                        <div class="text-secondary fw-bold">2022 - 2022</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1 text-center">
+                <i class="bi bi-plus-lg"></i>
+                <br>
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </div>
+        </div>  
+        <div class="row mb-3">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="images/UTN.png" alt="pixar" width="60">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-5">UPaTecO</div>
+                        <div class="text-secondary fs-6">Software Development</div>
+                        <div class="text-secondary fw-bold">2022 - Actualidad</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1 text-center">
+                <i class="bi bi-plus-lg"></i>
+                <br>
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </div>
+        </div>     
+    </div>
+
+    <!-- modal eliminación -->
+    <div class="modal modal-sm fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar Experiencia</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    ¿Desea eliminar la experiencia?
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" onclick="eliminarItem('expBackEnd');" >Eliminar</button>
             </div>
           </div>
-        </section>
-        <section class="hobbies" id="hobbies">
-          <h3 class="hobbies__titulo">Hobbies</h3>
-          
-      </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <footer class="pie-pagina">
-          <h2 class="descripcion-pie">Creado por Martín Olea</h2>
-          <p class="descripcion-pie">2023</p>
-        </footer>
-    </body>
+        </div>
+    </div>   
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
