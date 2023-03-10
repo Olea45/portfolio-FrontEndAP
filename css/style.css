@@ -2,3 +2,22 @@
     margin-top: -70px;
     border-radius: 50px;
 }
+
+.skill {
+    font-size: large;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.progress {
+    width: 75%;
+    margin-left: 17%;
+    margin-right: 15%;
+    margin-top: 2rem;
+}
+
+.card-body {
+    background: rgb(36, 35, 35);
+    color: white;
+    border-radius: 0.375rem;
+}
